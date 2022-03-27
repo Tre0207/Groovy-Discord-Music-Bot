@@ -2,6 +2,13 @@ import os
 # -*- coding: utf-8 -*-
 
 """
+Copyright (c) 2019 Valentin B.
+
+A simple music bot written in discord.py using youtube-dl.
+
+Though it's a simple example, music bots are complex and require much time and knowledge until they work perfectly.
+Use this as an example or a base for your own bot and extend it as you want. If there are any bugs, please let me know.
+
 Requirements:
 
 Python 3.5+
@@ -513,4 +520,4 @@ async def on_ready():
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
 
 
-bot.run("OTQzMjg5NTkyMjA1OTQ2ODkw.Ygw45A.q5TcCQsJQ9Dk0wEgnqy8b0iuX-A")
+bot.run("TOKEN FOR DISCORD API GOES HERE")
